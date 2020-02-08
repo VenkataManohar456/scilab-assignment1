@@ -9,7 +9,7 @@ A = input("Enter the coefficient matrix[NxN]: ")
 
 b = input("Enter the constant matrix[Nx1]: ")
 
-
+gaussianelimination(A,b);
 
 function [x] = gaussianelimination(A,b)
 
@@ -65,7 +65,7 @@ function [x] = gaussianelimination(A,b)
 
     end
 
-    disp('The values of x , y, z are --> ')
+     disp(x(3),x(2),x(1),'The values of x , y, z --> ');
 
     
 
