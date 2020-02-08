@@ -9,7 +9,7 @@ format('v',10)
 
 A = input("Enter a matrix[NxN]: ")
 
-
+lu_decomp(A);
 
 function lu_decomp(A)
 
